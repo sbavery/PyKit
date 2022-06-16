@@ -7,7 +7,7 @@ from setuptools import find_packages, setup
 def read(*paths, **kwargs):
     """Read the contents of a text file safely.
     >>> read("mykit_learn", "VERSION")
-    '0.1.0'
+    '0.1.1'
     >>> read("README.md")
     ...
     """
@@ -32,7 +32,7 @@ def read_requirements(path):
 setup(
     name="mykit_learn",
     version=read("mykit_learn", "VERSION"),
-    description="Awesome mykit_learn created by sbavery",
+    description="Learn Python with useful examples.",
     url="https://github.com/sbavery/mykit_learn/",
     long_description=read("README.md"),
     long_description_content_type="text/markdown",
