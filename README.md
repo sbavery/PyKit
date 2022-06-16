@@ -3,7 +3,7 @@
 [![codecov](https://codecov.io/gh/sbavery/mykit_learn/branch/main/graph/badge.svg?token=mykit_learn_token_here)](https://codecov.io/gh/sbavery/mykit_learn)
 [![CI](https://github.com/sbavery/mykit_learn/actions/workflows/main.yml/badge.svg)](https://github.com/sbavery/mykit_learn/actions/workflows/main.yml)
 
-Awesome mykit_learn created by sbavery
+Learn Python with useful examples.
 
 ## Install it from PyPI
 
