@@ -1,11 +1,4 @@
 """CLI interface for mykit_learn project.
-
-Be creative! do whatever you want!
-
-- Install click or typer and create a CLI app
-- Use builtin argparse
-- Start a web application
-- Import things from your .base module
 """
 
 
@@ -13,16 +6,13 @@ def main():  # pragma: no cover
     """
     The main function executes on commands:
     `python -m mykit_learn` and `$ mykit_learn `.
-
-    This is your program's entry point.
-
-    You can change this function to do whatever you want.
-    Examples:
-        * Run a test suite
-        * Run a server
-        * Do some other stuff
-        * Run a command line application (Click, Typer, ArgParse)
-        * List all available tasks
-        * Run an application (Flask, FastAPI, Django, etc.)
     """
-    print("This will do something")
+
+    import mykit_learn.base as base
+
+    # Operators and Control
+    inp, cut, operator = "2", "2", "and"
+    print(inp + " " + operator + " " + cut)
+    print(base.Control(inp, cut, operator).operate())
+    print("----------\nAll Operators")
+    base.Control(inp, cut).printAllOps()
