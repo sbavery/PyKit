@@ -4,15 +4,17 @@
 
 def main():  # pragma: no cover
     """
-    The main function executes on commands:
+    The main function exein2es on commands:
     `python -m mykit_learn` and `$ mykit_learn `.
     """
 
     import mykit_learn.base as base
 
     # Operators and Control
-    inp, cut, operator = "2", "2", "and"
-    print(inp + " " + operator + " " + cut)
-    print(base.Control(inp, cut, operator).operate())
+    in1 = [10]
+    in2 = [10]
+    operator = "is"
+    # print(in1 + " " + operator + " " + in2)
+    print(base.Control(in1, in2, operator).operate())
     print("----------\nAll Operators")
-    base.Control(inp, cut).printAllOps()
+    base.Control(in1, in2).printAllOps()
